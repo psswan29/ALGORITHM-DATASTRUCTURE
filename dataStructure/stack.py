@@ -3,6 +3,10 @@ class Stack(object):
     def __init__(self):
         self.items = []
 
+    def __repr__(self):
+        return '[' + ','.join(self.items) + ']'
+
+    @property
     def isEmpty(self):
         return len(self.items) == 0
 
