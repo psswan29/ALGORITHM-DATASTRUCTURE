@@ -95,3 +95,11 @@ class UnorderedList:
         if not found:
             i = -1
         return i
+
+    # todo
+    def append(self, item):
+        pass
+
+    # todo
+    def pop(self, ix):
+        pass
